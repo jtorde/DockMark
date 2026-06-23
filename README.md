@@ -4,7 +4,7 @@ A tiny [Hammerspoon](https://www.hammerspoon.org/) script that draws a small red
 
 macOS shows a dot under every *running* app, even ones with no window. DockMark fixes that: a running-but-windowless app gets no bar, and a closed app gets no bar. The strips sit on your actual Dock (it is **not** a second dock), and they're click-through, so the Dock keeps working exactly as before.
 
-![DockMark screenshot](docs/img.png)
+![DockMark screenshot](img.png)
 
 ## Features
 
