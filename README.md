@@ -1,8 +1,8 @@
 # DockMark
 
-A tiny [Hammerspoon](https://www.hammerspoon.org/) script that draws a small red bar **under your real macOS Dock icons — but only for apps that currently have a window** (open or minimized).
+A tiny [Hammerspoon](https://www.hammerspoon.org/) script that draws a small red bar **under your macOS Dock icons — but only for apps that currently have a window** (open or minimized).
 
-macOS shows a dot under every *running* app, even ones with no window. DockMark fixes that: a running-but-windowless app gets no bar, and a closed app gets no bar. The strips sit on your actual Dock (it is **not** a second dock), and they're click-through, so the Dock keeps working exactly as before.
+macOS shows a dot under every *running* app, even ones with no window. DockMark fixes that: **a running-but-windowless app gets no bar, and a closed app gets no bar: Only open apps with windows get a bar**.  The strips sit on your actual Dock (it is **not** a second dock), and they're click-through, so the Dock keeps working exactly as before.
 
 ![DockMark screenshot](img.png)
 
