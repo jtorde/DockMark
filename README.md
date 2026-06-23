@@ -34,6 +34,8 @@ brew install --cask hammerspoon
 Launch Hammerspoon once and grant it **Accessibility** permission when prompted
 (System Settings → Privacy & Security → Accessibility). DockMark won't work without it.
 
+Go to Hammerspoon → Preferences and check the option "Launch Hammerspoon at login". 
+
 ### 2. Install the script
 
 The commands below work **whether or not you already have a `~/.hammerspoon/init.lua`**. They install DockMark as a module and add a single `require` line to your config, creating `init.lua` if it doesn't exist and leaving any existing config untouched.
